@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Arrays;
 import java.util.Set;
 
 /**
@@ -7,9 +8,7 @@ import java.util.Set;
  * @author Will Malisch
  * @implNote Two pass with set. Worse on speed, but potentially better on space, than my other merge two strings algo
  */
-
-public class Main {
-
+public class mergerStringArraysTwoPass {
     public static String[] func(String[] a, String[] b){
         Set<String> set = new HashSet<>();
         for(int i = 0; i < a.length; i++){
@@ -24,7 +23,7 @@ public class Main {
             list[i++] = s;
         }
         return list;
-}
+    }
 
     public static void main(String[] args) {
         String[] one = {"Adam","Brian","Peter"};

@@ -8,9 +8,7 @@ import java.util.Set;
  * @author Will Malisch
  * @implNote One pass with set
  */
-
-public class Main {
-
+public class mergeStringArraysOnePass {
     public static String[] func(String[] a, String[] b){
         Set<String> set = new HashSet<>();
         String[] list = new String[a.length+b.length];
