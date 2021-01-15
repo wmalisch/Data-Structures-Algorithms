@@ -56,6 +56,11 @@ public class checkBalancedTree {
         return new TreeInfo(-1,false);
     }
 
+    /**
+     * Check if tree is balanced from bottom up. Pass a TreeInfo object that stores height, instead of runnning height function everytime
+     * @param root
+     * @return
+     */
     public static boolean isBalancedBottomUp(BinaryTree.Node root){
         return isBalancedHelper(root).balanced;
     }

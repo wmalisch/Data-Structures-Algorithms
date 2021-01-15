@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0798f0ce-6778-4473-922f-57637f2934f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GameOfLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkBalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/checkBalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/checkBalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/checkBalancedTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,23 +18,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkBalancedTree.java">
+        <entry file="file://$PROJECT_DIR$/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-              <folding>
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1719#1720#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="515">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -65,14 +54,15 @@
         <option value="$PROJECT_DIR$/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/BinaryTree.java" />
         <option value="$PROJECT_DIR$/checkBalancedTree.java" />
+        <option value="$PROJECT_DIR$/GameOfLife.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2902" />
-    <option name="y" value="-679" />
-    <option name="width" value="576" />
-    <option name="height" value="327" />
+    <option name="x" value="2431" />
+    <option name="y" value="-693" />
+    <option name="width" value="148" />
+    <option name="height" value="65" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +88,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610665453078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610675520074" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -114,9 +104,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.checkBalancedTree">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.GameOfLife">
+    <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameOfLife" />
       <module name="Data-Structures-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.checkBalancedTree" />
         <item itemvalue="Application.checkPermutation" />
         <item itemvalue="Application.isUnique" />
         <item itemvalue="Application.mergerStringArraysTwoPass" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610647433339</updated>
-      <workItem from="1610647438899" duration="14206000" />
+      <workItem from="1610647438899" duration="20157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14206000" />
+    <option name="totallyTimeSpent" value="20157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-670" width="1936" height="1056" extended-state="6" />
@@ -195,7 +185,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.25714287" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2994709" />
@@ -291,6 +281,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/checkBalancedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -298,14 +299,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkBalancedTree.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding>
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1719#1720#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="202">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
