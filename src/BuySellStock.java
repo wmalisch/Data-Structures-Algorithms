@@ -3,7 +3,7 @@
  */
 public class BuySellStock {
 
-    public static int maxProfit(int[] prices){
+    public static int maxProfitOnePass(int[] prices){
         int maxProfit = 0, min = prices[0];
         for(int i = 1; i < prices.length; i++){
             if(prices[i] < min){
@@ -17,6 +17,8 @@ public class BuySellStock {
 
     public static void main(String[] args){
         int[] prices = {7,1,5,3,6,4};
-        System.out.println(maxProfit(prices));
+        int[] x = {2,4,1};
+        System.out.println(maxProfitOnePass(prices));
+        System.out.println(maxProfitOnePass(x));
     }
 }
