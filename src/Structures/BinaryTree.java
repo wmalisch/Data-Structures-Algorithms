@@ -1,3 +1,5 @@
+package Structures;
+
 /**
  * BinarySearchTree implementation from GeeksforGeeks
  *

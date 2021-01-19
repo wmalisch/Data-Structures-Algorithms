@@ -1,3 +1,5 @@
+import Structures.BinaryTree;
+
 import java.lang.Math;
 final class TreeInfo{
     public int height;
