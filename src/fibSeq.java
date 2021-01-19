@@ -18,5 +18,4 @@ public class fibSeq {
         System.out.println(fib(b));
         System.out.println(fib(c));
     }
-
 }
