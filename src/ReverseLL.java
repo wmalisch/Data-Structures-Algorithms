@@ -4,13 +4,22 @@ public class ReverseLL {
 
     public static void printList(ListNode head){
         while(head != null){
-            System.out.println(head.val);
+            System.out.printf("%d -> ", head.val);
             head = head.next;
         }
+        System.out.println("\n");
     }
 
-    public static void reverse(ListNode head){
-
+    public static ListNode reverse(ListNode head){
+        ListNode prev = null;
+        ListNode curr = head;
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
     }
 
     public static void main(String[] args){
@@ -20,5 +29,7 @@ public class ReverseLL {
         ListNode b = new ListNode(2, c);
         ListNode a = new ListNode(1, b);
         printList(a);
+        ListNode p = reverse(a);
+        printList(p);
     }
 }
