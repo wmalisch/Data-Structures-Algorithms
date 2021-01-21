@@ -1,26 +1,14 @@
 package Structures;
 
-public class GraphNode {
-    int n;
-    String name;
-    public GraphNode(int n, String name){
-        this.n = n;
-        this.name = name;
-    }
+import java.util.Map;
 
-    public int getVal(){
-        return this.n;
-    }
+public interface GraphNode {
 
-    public String getName(){
-        return this.name;
-    }
+    int getVal();
 
-    public void setVal(int v){
-        this.n = v;
-    }
+    String getName();
 
-    public void setName(String name){
-        this.name = name;
-    }
+    void setVal(int v);
+
+    void setName(String name);
 }
