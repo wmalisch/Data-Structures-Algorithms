@@ -1,4 +1,4 @@
-package Structures;
+import Structures.DijkstraNode;
 
 import java.util.LinkedList;
 import java.util.Map;

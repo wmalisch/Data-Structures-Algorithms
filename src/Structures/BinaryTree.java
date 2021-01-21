@@ -5,12 +5,12 @@ package Structures;
  *
  * @author GeeksforGeeks
  */
-class BinaryTree {
+public class BinaryTree {
 
     /* Class containing left  
        and right child of current node 
      * and key value*/
-    class Node
+    public class Node
     {
         public int key;
         public Node left, right;
@@ -26,20 +26,20 @@ class BinaryTree {
     public Node root;
 
     // Constructor 
-    BinaryTree()
+    public BinaryTree()
     {
         root = null;
     }
 
     // This method mainly calls insertRec() 
-    void insert(int key)
+    public void insert(int key)
     {
         root = insertRec(root, key);
     }
 
     /* A recursive function to  
        insert a new key in BST */
-    Node insertRec(Node root, int key)
+    public Node insertRec(Node root, int key)
     { 
   
         /* If the tree is empty, 
@@ -61,14 +61,14 @@ class BinaryTree {
     }
 
     // This method mainly calls InorderRec() 
-    void inorder()
+    public void inorder()
     {
         inorderRec(root);
     }
 
     // A utility function to  
     // do inorder traversal of BST 
-    void inorderRec(Node root)
+    public void inorderRec(Node root)
     {
         if (root != null) {
             inorderRec(root.left);
