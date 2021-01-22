@@ -1,14 +1,39 @@
 package Structures;
-
 import java.util.Map;
+import java.util.HashMap;
 
-public interface GraphNode {
+public class GraphNode extends AbstractGraphNode {
+    private Map<GraphNode, Integer> adjacentNodes;
 
-    int getVal();
+    public GraphNode(String name, int val){
+        this.name = name;
+        this.val = val;
+        adjacentNodes = new HashMap<>();
+    }
+    @Override
+    public int getVal() { return this.val; }
 
-    String getName();
+    @Override
+    public String getName() { return this.name; }
 
-    void setVal(int v);
+    @Override
+    public void setVal(int v) { this.val = v; }
 
-    void setName(String name);
+    @Override
+    public void setName(String name) { this.name = name; }
+
+    @Override
+    public boolean wasVisited() { return this.visited; }
+
+    @Override
+    public void setVisited(boolean visit) { this.visited = visit; }
+
+    public Map<GraphNode, Integer> getAdjacentNodes() { return this.adjacentNodes; }
+
+    public boolean isNeighbour(GraphNode node) { return adjacentNodes.containsKey(node); }
+
+    public void addNeighbour(GraphNode node, int weight){ adjacentNodes.put(node, weight); }
+
+    public void addNeighbour(Map.Entry<GraphNode, Integer> nodeEntry){ adjacentNodes.put(nodeEntry.getKey(), nodeEntry.getValue()); }
+
 }
