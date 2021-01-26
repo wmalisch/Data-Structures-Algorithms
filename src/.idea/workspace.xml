@@ -67,10 +67,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lengthLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="540">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
-                <marker date="1611623105059" expanded="true" signature="1495:1562" ph="..." />
+                <marker date="1611623244283" expanded="true" signature="1922:1989" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611623121295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611623244324" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -248,12 +248,12 @@
       <workItem from="1611023946327" duration="251000" />
       <workItem from="1611065838632" duration="13597000" />
       <workItem from="1611257636223" duration="14617000" />
-      <workItem from="1611620443040" duration="2658000" />
+      <workItem from="1611620443040" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68150000" />
+    <option name="totallyTimeSpent" value="68289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -522,10 +522,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lengthLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="540">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
-            <marker date="1611623105059" expanded="true" signature="1495:1562" ph="..." />
+            <marker date="1611623244283" expanded="true" signature="1922:1989" ph="..." />
           </folding>
         </state>
       </provider>
