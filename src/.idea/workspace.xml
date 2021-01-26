@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0798f0ce-6778-4473-922f-57637f2934f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lengthLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lengthLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/lengthLongestSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +67,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lengthLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="503">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
+                <marker date="1611623105059" expanded="true" signature="1495:1562" ph="..." />
               </folding>
             </state>
           </provider>
@@ -168,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611620702394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611623121295" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -188,16 +186,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLL">
+  <component name="RunManager" selected="Application.lengthLongestSubstring">
     <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuySellStock" />
-      <module name="Data-Structures-Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LRUCache" />
       <module name="Data-Structures-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,13 +215,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lengthLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lengthLongestSubstring" />
+      <module name="Data-Structures-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lengthLongestSubstring" />
         <item itemvalue="Application.ReverseLL" />
         <item itemvalue="Application.NumOfIslands" />
         <item itemvalue="Application.BuySellStock" />
         <item itemvalue="Application.fibSeq" />
-        <item itemvalue="Application.LRUCache" />
       </list>
     </recent_temporary>
   </component>
@@ -250,12 +248,12 @@
       <workItem from="1611023946327" duration="251000" />
       <workItem from="1611065838632" duration="13597000" />
       <workItem from="1611257636223" duration="14617000" />
-      <workItem from="1611620443040" duration="258000" />
+      <workItem from="1611620443040" duration="2658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65750000" />
+    <option name="totallyTimeSpent" value="68150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -266,7 +264,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -275,7 +273,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.26666668" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2994709" />
@@ -524,11 +522,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lengthLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="503">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
+            <marker date="1611623105059" expanded="true" signature="1495:1562" ph="..." />
           </folding>
         </state>
       </provider>
