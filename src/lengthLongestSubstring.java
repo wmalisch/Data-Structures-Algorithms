@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Algorithm for finding the length of the longest substring in a string
  */
@@ -32,7 +35,10 @@ public class lengthLongestSubstring {
      * Brute force implementation at getting longest substring
      * Tim complexity:
      * @param str
-     * @return
+     *
+     * O(n^3) time complexity
+     * O(n)
+     * @return length of longest substring
      */
     public static int longestSub(String str){
         int max = 0;
@@ -48,10 +54,28 @@ public class lengthLongestSubstring {
                 }
             }
         }
-
         return max;
     }
 
+
+    public static int slidingWindowLongestSubstring(String str){
+        int max = 0;
+        int tail = 0;
+        int head = 0;
+        Set<Character> set = new HashSet<>();
+        while( tail < str.length() && head < str.length() ){
+            if(!set.contains(str.charAt(head))){
+                set.add(str.charAt(head));
+                head++;
+                max = Math.max(max, head - tail);
+            }else{
+                set.remove(str.charAt(tail));
+                tail++;
+            }
+        }
+
+        return max;
+    }
 
 
     public static void main(String[] args){
@@ -59,10 +83,12 @@ public class lengthLongestSubstring {
         String two = "bbbbb";
         String three = "pwwkew";
         String four = "dvdf";
+        int j = 0;
+        HashSet<Character> set = new HashSet<>();
 
-        System.out.println(longestSub(one));
-        System.out.println(longestSub(two));
-        System.out.println(longestSub(three));
-        System.out.println(longestSub(four));
+        System.out.println(slidingWindowLongestSubstring(one));
+        System.out.println(slidingWindowLongestSubstring(two));
+        System.out.println(slidingWindowLongestSubstring(three));
+        System.out.println(slidingWindowLongestSubstring(four));
     }
 }
