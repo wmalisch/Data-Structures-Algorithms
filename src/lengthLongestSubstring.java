@@ -8,24 +8,24 @@ public class lengthLongestSubstring {
      * Iterates from current index checking if char's are unique, if not, exit
      *
      * @param str
-     * @param currInd
+     * @param start index of substring
+     * @param end index of substring
      * @return
      */
-    private static int checkSub(String str, int currInd){
+    private static int checkSub(String str, int start, int end){
         boolean[] checker = new boolean[256];
-        checker[str.charAt(currInd)] = true;
 
-        int ind = currInd + 1;
+        int length = 0;
 
-        for(int j = ind; j < str.length(); j++){
-            if(checker[str.charAt(j)] ==  true){
-                return ind;
+        for(int k = start; k < end + 1; k++){
+            if(checker[str.charAt(k)] ==  true){
+                return length;
             }else{
-                checker[str.charAt(j)] = true;
-                ind++;
+                checker[str.charAt(k)] = true;
+                length++;
             }
         }
-        return ind;
+        return length;
     }
 
     /**
@@ -36,49 +36,33 @@ public class lengthLongestSubstring {
      */
     public static int longestSub(String str){
         int max = 0;
-        int index = 0;
+        int curr = 0;
 
         for(int i = 0; i < str.length(); i++){
-            index = checkSub(str, i);
-            if(i == 0){
-                max = (index - i - 1) > max ? (index - i - 1) : max;
-                i = index - 2;
-            }else{
-                max = (index - i) > max ? (index - i) : max;
-                i = index - 1;
+            for(int j = i; j < str.length(); j++){
+                curr = checkSub(str, i, j);
+                if (curr > max) {
+                    max = Math.max(curr, j - i);
+                }else{
+                    continue;
+                }
             }
         }
 
         return max;
     }
 
-    public static int longestSubSecond(String str){
-        int max = 0;
-        int index = 0;
 
-        for(int i = 0; i < str.length(); i++){
-            index = checkSub(str, i);
-            if(i == 0){
-                max = (index - i) > max ? (index - i) : max;
-            }else{
-                max = (index - i) > max ? (index - i) : max;
-
-            }
-            i = index - 1;
-        }
-
-        return max;
-    }
 
     public static void main(String[] args){
-//        String one = "abcabccbb";
-//        String two = "bbbbb";
-//        String three = "pwwkew";
+        String one = "abcabccbb";
+        String two = "bbbbb";
+        String three = "pwwkew";
         String four = "dvdf";
 
-//        System.out.println(longestSub(one));
-//        System.out.println(longestSub(two));
-//        System.out.println(longestSub(three));
+        System.out.println(longestSub(one));
+        System.out.println(longestSub(two));
+        System.out.println(longestSub(three));
         System.out.println(longestSub(four));
     }
 }
