@@ -1,4 +1,6 @@
 package Structures;
+import java.util.Queue;
+import java.util.LinkedList;
 
 import com.sun.source.tree.Tree;
 
@@ -62,7 +64,21 @@ public class AVLTree {
         }
     }
 
-    // 
+    // Level order traversal
+    public void levelOrderTraversal(TreeNode node){
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(node);
+        while(!q.isEmpty()){
+            TreeNode curr = q.remove();
+            if(curr != null){
+                q.add(curr.left);
+                q.add(curr.right);
+                System.out.println(curr.getKey());
+            }
+        }
+    }
+
+
 
     public TreeNode insert(TreeNode node, int key){
         if(node == null){
@@ -97,4 +113,16 @@ public class AVLTree {
 
         return node;
     }
+
+    public static void main(String[] args){
+        AVLTree tree = new AVLTree();
+        tree.root = tree.insert(tree.root, 20);
+        tree.root = tree.insert(tree.root, 30);
+        tree.root = tree.insert(tree.root, 50);
+        tree.root = tree.insert(tree.root, 80);
+        tree.root = tree.insert(tree.root, 90);
+        tree.root = tree.insert(tree.root, 100);
+        tree.levelOrderTraversal(tree.root);
+    }
+
 }

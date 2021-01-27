@@ -9,4 +9,8 @@ public class TreeNode {
         this.key = key;
     }
 
+    public int getKey(){
+        return this.key;
+    }
+
 }
