@@ -1,6 +1,8 @@
 package Structures;
 import java.util.Queue;
 import java.util.LinkedList;
+import java.util.Set;
+import java.util.HashSet;
 
 import com.sun.source.tree.Tree;
 
@@ -64,8 +66,8 @@ public class AVLTree {
         }
     }
 
-    // Level order traversal
-    public void levelOrderTraversal(TreeNode node){
+    // Breadth first search level order traversal
+    public void BFSlevelOrderTraversal(TreeNode node){
         Queue<TreeNode> q = new LinkedList<>();
         q.add(node);
         while(!q.isEmpty()){
@@ -78,8 +80,7 @@ public class AVLTree {
         }
     }
 
-
-
+    // AVL Tree insert, O(log n) time and O(n) space
     public TreeNode insert(TreeNode node, int key){
         if(node == null){
             return (new TreeNode(key));
@@ -122,7 +123,6 @@ public class AVLTree {
         tree.root = tree.insert(tree.root, 80);
         tree.root = tree.insert(tree.root, 90);
         tree.root = tree.insert(tree.root, 100);
-        tree.levelOrderTraversal(tree.root);
     }
 
 }

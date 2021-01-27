@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0798f0ce-6778-4473-922f-57637f2934f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Structures/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/AVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structures/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Structures/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Structures/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="506">
+              <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -134,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611769593647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611770324038" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -225,12 +224,12 @@
       <workItem from="1611620443040" duration="2827000" />
       <workItem from="1611675116022" duration="7871000" />
       <workItem from="1611689560012" duration="5146000" />
-      <workItem from="1611759967242" duration="5327000" />
+      <workItem from="1611759967242" duration="6053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86663000" />
+    <option name="totallyTimeSpent" value="87389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -528,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Structures/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="506">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
