@@ -13,6 +13,8 @@ public class PalindromeLinkedList {
         public ListNode(int item, ListNode node){ this.key = item; this.next = node; }
     }
 
+    private ListNode front;
+
     // O(n) space and time using list node
     public static boolean isPalListNode(ListNode head){
         List<Integer> arr = new ArrayList<>();
@@ -33,6 +35,22 @@ public class PalindromeLinkedList {
         }
         return true;
     }
+
+//    private static boolean recurse(ListNode node){
+//        if(node != null){
+//            if(!recurse(node.next)) return false;
+//            if( node.key != this.front.key) return false;
+//            front = front.next;
+//        }
+////        return true;
+//    }
+//
+//    // Recursively check
+//    public static boolean isPalRecursive(ListNode head){
+//        this.front = head;
+//        return recurse(head);
+//    }
+
 
 
     // O(n) space and time with stack
@@ -60,5 +78,4 @@ public class PalindromeLinkedList {
         x.add(2);
         System.out.println(isPalStack(x));
     }
-
 }
