@@ -40,7 +40,6 @@ public class rotate2DArray {
 
             }
         }
-
     }
 
     public static void main(String[] args){
@@ -51,7 +50,8 @@ public class rotate2DArray {
         board[2][2] = 1;
         board[1][1] = 1;
         print_board(board);
-        rotate2DArrayLeft(board);print_board(board);
+        rotate2DArrayLeft(board);
+        print_board(board);
 
     }
 }
