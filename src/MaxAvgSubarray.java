@@ -2,13 +2,12 @@ public class MaxAvgSubarray {
 
     public static double maxSubArr(int[] nums, int k){
         double max = Double.MIN_VALUE;
-        int sum = 0;
+        double sum = 0;
         if(nums.length <= k){
-            for(int i : nums){
+            for(int i : nums) {
                 sum += i;
             }
-            max = sum / nums.length;
-            return max;
+            return sum / k;
         }
 
         int end = 0;
@@ -17,20 +16,32 @@ public class MaxAvgSubarray {
             sum+=nums[i];
         }
 
-        max = ((sum / k) > max) ? (sum / k) : max;
+        max = (sum > max) ? sum : max;
 
         while(front < nums.length - 1){
             front++;
             sum += nums[front];
             sum -= nums[end];
             end++;
-            max = ((sum / k) > max) ? (sum / k) : max;
+            max = (sum > max) ? sum : max;
         }
-        return max;
+        return max / k;
+    }
+
+    public static double maxsubarraytwo(int[] nums, int k){
+        double sum=0;
+        for(int i=0;i<k;i++)
+            sum+=nums[i];
+        double res=sum;
+        for(int i=k;i<nums.length;i++){
+            sum+=nums[i]-nums[i-k];
+            res=Math.max(res,sum);
+        }
+        return res/k;
     }
 
     public static void main(String[] args){
-        int[] arr = {1,12,-5,-6,50,3};
-        System.out.println(maxSubArr(arr, 4));
+        int[] arr = {-1};
+        System.out.println(maxSubArr(arr, 1));
     }
 }
