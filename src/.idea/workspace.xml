@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0798f0ce-6778-4473-922f-57637f2934f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HighFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/HighFive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxAvgSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-Algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HighFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/HighFive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HighFive.java">
+        <entry file="file://$PROJECT_DIR$/MaxAvgSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/OptimalShipCapacity.java" />
         <option value="$PROJECT_DIR$/stringCompress.java" />
         <option value="$PROJECT_DIR$/HighFive.java" />
+        <option value="$PROJECT_DIR$/MaxAvgSubarray.java" />
       </list>
     </option>
   </component>
@@ -117,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612037268031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612039282388" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -137,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HighFive">
+  <component name="RunManager" selected="Application.MaxAvgSubarray">
     <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Structures.AVLTree" />
       <module name="Data-Structures-Algorithms" />
@@ -158,15 +158,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PalindromeLinkedList" />
+    <configuration name="MaxAvgSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxAvgSubarray" />
       <module name="Data-Structures-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rotate2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rotate2DArray" />
+    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromeLinkedList" />
       <module name="Data-Structures-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxAvgSubarray" />
         <item itemvalue="Application.HighFive" />
         <item itemvalue="Application.stringCompress" />
         <item itemvalue="Application.PalindromeLinkedList" />
         <item itemvalue="Application.AVLTree" />
-        <item itemvalue="Application.rotate2DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -212,12 +212,12 @@
       <workItem from="1611773191518" duration="5538000" />
       <workItem from="1611854333165" duration="889000" />
       <workItem from="1611873425934" duration="5720000" />
-      <workItem from="1612029814165" duration="6072000" />
+      <workItem from="1612029814165" duration="8638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105712000" />
+    <option name="totallyTimeSpent" value="108278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -558,8 +558,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HighFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="272">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MaxAvgSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
