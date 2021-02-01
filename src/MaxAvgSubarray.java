@@ -40,6 +40,22 @@ public class MaxAvgSubarray {
         return res/k;
     }
 
+    public static double maxSubAttemptTwo(int[] nums, int k){
+        double sum = 0;
+        for(int i = 0; i < k; i++){
+            sum+=nums[i];
+        }
+        double result = sum;
+        for(int i = k; i < nums.length; i++){
+            sum+=nums[i];
+            sum-=nums[i-k];
+            result = Math.max(result, sum);
+        }
+
+        return result / k;
+    }
+
+
     public static void main(String[] args){
         int[] arr = {-1};
         System.out.println(maxSubArr(arr, 1));
