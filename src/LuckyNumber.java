@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class LuckyNumber {
@@ -41,9 +42,29 @@ public class LuckyNumber {
         return max;
     }
 
+    public static int sortLucky(int[] arr){
+        Arrays.sort(arr);
+        int count = 1;
+        for(int i = arr.length - 1; i > 0; i--){
+            if(arr[i] == arr[i-1]){
+                count++;
+            }else{
+                if(count == arr[i]){
+                    return count;
+                }
+                count = 1;
+            }
+
+        }
+        return -1;
+    }
+
+
     public static void main(String[] args){
         int[] arr = { 2,2,3,3,3,3,4,9 };
         System.out.println(bruteForce(arr));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
