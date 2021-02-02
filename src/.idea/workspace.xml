@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0798f0ce-6778-4473-922f-57637f2934f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LuckyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxAvgSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAvgSubarray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MaxAvgSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="129">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LuckyNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#140#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,12 +95,13 @@
         <option value="$PROJECT_DIR$/stringCompress.java" />
         <option value="$PROJECT_DIR$/HighFive.java" />
         <option value="$PROJECT_DIR$/MaxAvgSubarray.java" />
+        <option value="$PROJECT_DIR$/LuckyNumber.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2554" />
-    <option name="y" value="55" />
+    <option name="x" value="2104" />
+    <option name="y" value="-11" />
     <option name="width" value="862" />
     <option name="height" value="463" />
   </component>
@@ -98,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,13 +124,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612042265142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612279577741" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -136,22 +149,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxAvgSubarray">
-    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Structures.AVLTree" />
+  <component name="RunManager" selected="Application.LuckyNumber">
+    <configuration name="HighFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HighFive" />
       <module name="Data-Structures-Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HighFive" />
+    <configuration name="LuckyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LuckyNumber" />
       <module name="Data-Structures-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LuckyNumber" />
         <item itemvalue="Application.MaxAvgSubarray" />
         <item itemvalue="Application.HighFive" />
         <item itemvalue="Application.stringCompress" />
         <item itemvalue="Application.PalindromeLinkedList" />
-        <item itemvalue="Application.AVLTree" />
       </list>
     </recent_temporary>
   </component>
@@ -212,12 +219,13 @@
       <workItem from="1611854333165" duration="889000" />
       <workItem from="1611873425934" duration="5720000" />
       <workItem from="1612029814165" duration="9746000" />
-      <workItem from="1612215818621" duration="369000" />
+      <workItem from="1612215818621" duration="990000" />
+      <workItem from="1612278490526" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109755000" />
+    <option name="totallyTimeSpent" value="111461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -237,7 +245,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.35343915" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.21904762" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2994709" />
@@ -565,8 +573,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MaxAvgSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        <state relative-caret-position="129">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuckyNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#140#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
