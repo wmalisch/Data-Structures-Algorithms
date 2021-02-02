@@ -5,7 +5,15 @@ public class LuckyNumber {
     public static int bruteForce(int[] arr){
         int max = -1;
 
-        
+        for(int num : arr){
+            int count =0;
+            for(int iter : arr){
+                if(num == iter){
+                    count++;
+                }
+            }
+            if(count == num){ max = Math.max(num, max); }
+        }
 
         return max;
     }
@@ -35,7 +43,7 @@ public class LuckyNumber {
 
     public static void main(String[] args){
         int[] arr = { 2,2,3,3,3,3,4,9 };
-        System.out.println(findLucky(arr));
+        System.out.println(bruteForce(arr));
     }
 
 }
