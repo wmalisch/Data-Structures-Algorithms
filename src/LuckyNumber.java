@@ -53,6 +53,7 @@ public class LuckyNumber {
                     return count;
                 }
                 count = 1;
+
             }
 
         }
@@ -64,7 +65,7 @@ public class LuckyNumber {
         int[] arr = { 2,2,3,3,3,3,4,9 };
         System.out.println(bruteForce(arr));
         Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(2 - (-1000));
     }
 
 }
